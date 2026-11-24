@@ -48,7 +48,7 @@ Hook 运行在模型上下文之外：它在用户提示进入模型前做关键
 node /绝对路径/rea-ondemand/install.js
 ```
 
-若你把 `rea` 装在 PATH 上（如 `npm i -g rea-agents`），可跳过第 3 步，hook 会自动走 PATH 回退。
+`install.js` 会自动寻找本机的 `rea`（PATH → npm 全局 → 主目录标准路径）与可用的 Node（≥22.23.4），无需手写任何路径；也可用 `REA_CLI` / `REA_NODE` / `REA_HOME` 环境变量显式指定。若 `rea` 已在 PATH 上（如 `npm i -g rea-agents`），可跳过第 3 步，hook 会自动走 PATH 回退。
 
 ## 用法
 

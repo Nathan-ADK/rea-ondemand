@@ -1,6 +1,6 @@
 {
   "name": "@nathan-adk/rea-ondemand",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Zero-resident, on-demand REA reverse-engineering capability for WorkBuddy (WBD). Injects nothing until a reverse-engineering request is detected; runs REA CLI once, then exits. WBD host only.",
   "type": "commonjs",
   "main": "hook.js",
